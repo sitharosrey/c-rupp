@@ -1,0 +1,47 @@
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Note Version 2.exe.config
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Note Version 2.exe
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Note Version 2.pdb
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Guna.UI2.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note Version 2.csproj.AssemblyReference.cache
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note Version 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.LogIn.resources
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.Properties.Resources.resources
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note Version 2.csproj.GenerateResource.cache
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note Version 2.csproj.CoreCompileInputs.cache
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note Version 2.csproj.CopyComplete
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note Version 2.exe
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note Version 2.pdb
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.DisplayForm.resources
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Npgsql.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Buffers.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Collections.Immutable.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Memory.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Text.Json.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Threading.Channels.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.ValueTuple.dll
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\Npgsql.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Buffers.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Collections.Immutable.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Memory.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Text.Json.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Threading.Channels.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.ValueTuple.xml
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.InsertForm.resources
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.UpdateForm.resources
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.SignUpForm.resources
