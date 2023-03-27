@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Guna.UI2.WinForms.Suite;
 using Npgsql;
 
 namespace Note_Version_2
@@ -19,33 +12,6 @@ namespace Note_Version_2
             InitializeComponent();
             NpgsqlConnection connection = DatabaseConnection.Instance.GetConnection();
 
-            /*using (var command = new NpgsqlCommand("SELECT id AS note_id, title, description FROM note_tb", connection))
-            {
-                using (var adapter = new NpgsqlDataAdapter(command))
-                {
-                    var dataTable = new DataTable();
-                    adapter.Fill(dataTable);
-
-                    // create the columns for the DataGridView
-                    DataGridViewColumn idColumn = new DataGridViewTextBoxColumn();
-                    idColumn.DataPropertyName = "note_id"; // set the DataPropertyName property to "note_id"
-                    idColumn.HeaderText = "ID";
-                    dataGridView1.Columns.Add(idColumn);
-
-                    DataGridViewColumn titleColumn = new DataGridViewTextBoxColumn();
-                    titleColumn.DataPropertyName = "title";
-                    titleColumn.HeaderText = "Title";
-                    dataGridView1.Columns.Add(titleColumn);
-
-                    DataGridViewColumn descriptionColumn = new DataGridViewTextBoxColumn();
-                    descriptionColumn.DataPropertyName = "description";
-                    descriptionColumn.HeaderText = "Description";
-                    dataGridView1.Columns.Add(descriptionColumn);
-
-                    // set the DataSource of the DataGridView to the DataTable
-                    dataGridView1.DataSource = dataTable; 
-                }
-            }*/
                 using (var command = new NpgsqlCommand("SELECT id, title, description FROM note_tb", connection))
                 {
                     using (var adapter = new NpgsqlDataAdapter(command))
@@ -146,6 +112,13 @@ namespace Note_Version_2
             this.Hide();
             updateForm.Show();
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var display = new LogIn();
+            display.Show();
         }
     }
 }

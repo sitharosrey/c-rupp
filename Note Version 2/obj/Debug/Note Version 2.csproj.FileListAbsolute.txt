@@ -45,3 +45,5 @@ C:\Users\sreys\source\repos\Note Version 2\Note Version 2\bin\Debug\System.Value
 C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.InsertForm.resources
 C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.UpdateForm.resources
 C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.SignUpForm.resources
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.AdminForm.resources
+C:\Users\sreys\source\repos\Note Version 2\Note Version 2\obj\Debug\Note_Version_2.AdminManageUserForm.resources

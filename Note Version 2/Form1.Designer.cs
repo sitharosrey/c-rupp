@@ -83,9 +83,9 @@
             this.label3.Location = new System.Drawing.Point(511, 149);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 30);
+            this.label3.Size = new System.Drawing.Size(106, 30);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Usernam";
+            this.label3.Text = "Username";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txt_username
@@ -170,6 +170,7 @@
             this.sign_up.Size = new System.Drawing.Size(93, 23);
             this.sign_up.TabIndex = 10;
             this.sign_up.Text = "Sign Up";
+            this.sign_up.Click += new System.EventHandler(this.sign_up_Click);
             // 
             // label6
             // 
