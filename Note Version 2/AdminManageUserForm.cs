@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
 
@@ -44,6 +38,74 @@ namespace Note_Version_2
         private void AdminManageUserForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_banned_Click(object sender, EventArgs e)
+        {
+            NpgsqlConnection connection = DatabaseConnection.Instance.GetConnection();
+
+            String selectedId = guna2DataGridView1.CurrentRow.Cells["id"].Value.ToString();
+            var deleteStatement = $"UPDATE user_tb SET is_ban = @isBan WHERE id = {selectedId}";
+
+            // execute the DELETE statement
+            var command = new NpgsqlCommand(deleteStatement, connection);
+            command.Parameters.AddWithValue("isBan", true);
+            var rowEffect = command.ExecuteNonQuery();
+
+            if (rowEffect == 1)
+            {
+                var messageBoxText = "The selected row was banned successfully.";
+                var caption = "Banned is Successful";
+                var buttons = MessageBoxButtons.OK;
+                var icon = MessageBoxIcon.Information;
+                MessageBox.Show(messageBoxText, caption, buttons, icon);
+                // clear the existing data in the datagrid
+                guna2DataGridView1.DataSource = null;
+
+                // rebind the datagrid to the updated data
+                var selectStatement = "SELECT * FROM user_tb";
+                var adapter = new NpgsqlDataAdapter(selectStatement, connection);
+                var dataTable = new DataTable();
+                adapter.Fill(dataTable);
+                guna2DataGridView1.DataSource = dataTable;
+
+            }
+
+            connection.Close();
+        }
+
+        private void btn_unban_Click(object sender, EventArgs e)
+        {
+            NpgsqlConnection connection = DatabaseConnection.Instance.GetConnection();
+
+            String selectedId = guna2DataGridView1.CurrentRow.Cells["id"].Value.ToString();
+            var deleteStatement = $"UPDATE user_tb SET is_ban = @isBan WHERE id = {selectedId}";
+
+            // execute the DELETE statement
+            var command = new NpgsqlCommand(deleteStatement, connection);
+            command.Parameters.AddWithValue("isBan", false);
+            var rowEffect = command.ExecuteNonQuery();
+
+            if (rowEffect == 1)
+            {
+                var messageBoxText = "The selected row was unbanned successfully.";
+                var caption = "Unbanned is Successful";
+                var buttons = MessageBoxButtons.OK;
+                var icon = MessageBoxIcon.Information;
+                MessageBox.Show(messageBoxText, caption, buttons, icon);
+                // clear the existing data in the datagrid
+                guna2DataGridView1.DataSource = null;
+
+                // rebind the datagrid to the updated data
+                var selectStatement = "SELECT * FROM user_tb";
+                var adapter = new NpgsqlDataAdapter(selectStatement, connection);
+                var dataTable = new DataTable();
+                adapter.Fill(dataTable);
+                guna2DataGridView1.DataSource = dataTable;
+
+            }
+
+            connection.Close();
         }
     }
 }
